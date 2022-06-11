@@ -3,6 +3,10 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
+parts:
+- caption: Jupyter Book
+  chapters:
+  - file: guide/markdown
+    sections:
+    - file: guide/notebooks
+  - file: guide/CONTRIBUTING.md

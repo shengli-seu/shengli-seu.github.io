@@ -5,15 +5,24 @@
 
 #######################################################################################
 # Book settings
-title                       : My Book  # The title of the book. Will be placed in the left navbar.
+title                       : Intellectual Tree  # The title of the book. Will be placed in the left navbar.
 author                      : Sheng Li  # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
 
+html:
+  #favicon: images/favicon.ico
+  home_page_in_navbar: false
+  use_edit_page_button: true
+  google_analytics_id: "G-JNKE33XNJQ"
+  use_repository_button: true
+  use_issues_button: true
+  #baseurl: https://jupyterbook.org/
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: 'off'
 
 # Define the name of the latex output file for PDF builds
 latex:
