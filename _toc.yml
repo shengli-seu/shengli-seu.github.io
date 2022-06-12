@@ -6,9 +6,28 @@ root: chapters/intro
 parts:
 - caption: Mathematics
   chapters:
-  - file: chapters/01-Math/01-LinAlg/linear algebra
+  - file: chapters/1-Math/1-LinAlg/linear algebra
     sections:
-    - file: chapters/01-Math/01-LinAlg/essence/essence
-      sections:
-      - file: chapters/01-Math/01-LinAlg/essence/basics
+    - url: https://eetose.github.io/docs/math/linear%20algebra/essence/
+      title: Essence
+
+- caption: Coding
+  chapters:
+  # data structure
+  - file: chapters/2-Coding/1-datastructure/datastruct
+    sections:
+    - file: chapters/2-Coding/1-datastructure/heap
+    - file: chapters/2-Coding/1-datastructure/BST
+    - file: chapters/2-Coding/1-datastructure/graph
   
+  # algorithms   
+  - file: chapters/2-Coding/2-algorithms/algorithms
+
+  # Python
+  - file: chapters/2-Coding/3-python/python
+    sections:
+    - file: chapters/2-Coding/3-python/env
+    - file: chapters/2-Coding/3-python/modules
+
+  # C/C++
+  - file: chapters/2-Coding/3-python/c 
