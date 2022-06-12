@@ -13,7 +13,7 @@ logo                        : images/logo.png  # A path to the book logo
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  favicon: images/seu.svg
+  favicon: images/seu.png
   home_page_in_navbar: false
   use_edit_page_button: true
   google_analytics_id: "G-JNKE33XNJQ"
