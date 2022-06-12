@@ -8,12 +8,12 @@
 title                       : Intellectual Tree  # The title of the book. Will be placed in the left navbar.
 author                      : Sheng Li  # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
-logo                        : images/logo.png  # A path to the book logo
+logo                        : images/blog/logo.png  # A path to the book logo
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  favicon: images/seu.png
+  favicon: images/blog/seu.png
   home_page_in_navbar: false
   use_edit_page_button: true
   google_analytics_id: "G-JNKE33XNJQ"
@@ -24,7 +24,7 @@ html:
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: 'off'
+  execute_notebooks: force
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -37,6 +37,6 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  url: https://https://github.com/EeToSe # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)

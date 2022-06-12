@@ -4,9 +4,11 @@
 format: jb-book
 root: chapters/intro
 parts:
-- caption: Jupyter Book
+- caption: Mathematics
   chapters:
-  - file: chapters/guide/markdown
+  - file: chapters/01-Math/01-LinAlg/linear algebra
     sections:
-    - file: chapters/guide/notebooks
-  - file: chapters/guide/CONTRIBUTING.md
+    - file: chapters/01-Math/01-LinAlg/essence/essence
+      sections:
+      - file: chapters/01-Math/01-LinAlg/essence/basics
+  

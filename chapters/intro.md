@@ -2,13 +2,13 @@
 
 It takes half your life before you discover life is a do-it-yourself project
 
+## About
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Hi! I am Sheng Li, a PhD student in the School of Cyber Science and Engineering at Southeast University. My academic interests lie broadly in image processing and computer vision, in particular image authentication and image tampering detection.
 
-Check out the content pages bundled with this sample book to see more.
+Previously I studied Electrical Engineering at UNSW, where I was part of UNSW Smart Campus group, working with [Hassan Habibi Gharakheili](http://www2.ee.unsw.edu.au/~hhabibi/) on data analytics for Internet-of-Things and its applications to smart campus. 
 
-```{tableofcontents}
-```
+You can reach me at sheng-li@seu.edu.cn.
+
+
+
