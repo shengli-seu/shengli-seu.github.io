@@ -1,5 +1,8 @@
 # Steve's Learning Notes
 
+It takes half your life before you discover life is a do-it-yourself project
+
+
 This is a small sample book to give you a feel for how book content is
 structured.
 It shows off a few of the major file types, as well as some sample content.
