@@ -12,6 +12,7 @@ parts:
       title: Essence
 
 - caption: Coding
+  # numbered: true                      # Only the Coding part is numbered
   chapters:  
   # algorithms   
   - file: chapters/2-Coding/2-algorithms/algorithms

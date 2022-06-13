@@ -46,6 +46,8 @@ parse:
   myst_enable_extensions:
     - html_image
 
-sphinx:
-  config:
-    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+# Disable building files that aren’t in the Table of Contents
+only_build_toc_files: true
+
+# Exclude pages from your build
+# exclude_patterns: [pattern1/*, path/to/myfile.ipynb]

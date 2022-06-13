@@ -1,5 +1,18 @@
-# Data Analysis for Smart Buildings
+---
+substitutions:
+  key1: "I'm a **substitution**"
+  key2: |
+    ```{note}
+    {{ key1 }}
+    ```
+  fishy: |
+    ```{image} img/fun-fish.png
+    :alt: fishy
+    :width: 200px
+    ```
+---
 
+# Data Analysis for Smart Buildings
 
 ## Background: UNSW Smart Campus
 
@@ -17,16 +30,19 @@ Gain insights into the behavior of real estate usage on UNSW  through the instru
 4. **Data visualization** is performed to answer the question of the elevator and shared study space usage.
 
 ### Sensors 
-<!-- <p align = "center">
-<img src="/assets/image/smartcampus/sensors.png" alt="sensors" class="inline"/>
+
+![](../../../images/smartcampus/sensors.png)
+
+<p align = "center">
+<img src="../../../images/smartcampus/sensors.png" alt="sensors" class="inline"/>
 <em>Beam counter and Human counting camera</em>
 </p>
 
 <p align = "center">
-<img src="/assets/image/smartcampus/device_statistics.PNG" alt="sensors" class="inline"/>
+<img src="../../../images/smartcampus/device_statistics.PNG" alt="sensors" class="inline"/>
 <br>
 <em>Device installation covering labs, meeting rooms and corridors </em>
-</p> -->
+</p>
 
 ### Sensor Network 
 Yellow routers are white listed by IT department provided with Mac address. They could therefore connected with uni_wide device(campus network) through tunnelling of VPN.
@@ -34,21 +50,22 @@ Yellow routers are white listed by IT department provided with Mac address. They
 ### VPN 
 Tinc run on routers and the sensor_server with key pairs generated.
 
-Server: Open certain port to listen to the connections from routers.
+Server: open certain port to listen to the connections from routers.
 
-Routers: Store the hard-coded server list.
+Routers: store the hard-coded server list.
+
 
 <table><tr>
 <td> 
   <p align="center">
-    <img alt="vpn_table" src="/assets/image/smartcampus/vpn_hosts.PNG" width="350">
+    <img alt="vpn_table" src="../../../images/smartcampus/vpn_hosts.png" width="350">
     <br>
     <em style="color: grey">VPN hosts</em>
   </p> 
 </td>
 <td> 
   <p align="center">
-    <img alt="vpn_table" src="/assets/image/smartcampus/vpn_table.PNG" width="300">
+    <img alt="vpn_table" src="../../../images/smartcampus/vpn_table.png" width="300">
     <br>
     <em style="color: grey">VPN description table</em>
   </p> 
@@ -60,3 +77,4 @@ Routers: Store the hard-coded server list.
 <iframe width="100%" height="700" src="/assets/thesis/poster.pdf">If you are seeing this text, the preview of the CV failed. Most likely this happened because your browser does not support this technical feature. In this case, please download the CV using the link above.</iframe>
 EE building Sensor Network
 {: .fs-6 .fw-300 }
+
