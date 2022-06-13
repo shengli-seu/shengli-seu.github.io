@@ -10,7 +10,8 @@
 
 Request for time: 44 not allowed (46 ∈ R); 53 OK; 20 not allowed (already past)
 
-##  Can we do better
+##  Can we do better compared with previous 
+
 - **Sorted array**: a k minute check can be done in O(1) but insertion(shifting) takes O(n).
 - **Min heap**: insert in O(lgn) time but k minute check takes O(n) time
 - **Sorted linked list**: cant do the binary search.
@@ -18,26 +19,35 @@ Request for time: 44 not allowed (46 ∈ R); 53 OK; 20 not allowed (already past
 ## BST 
 ![](../../../images/data-structure/example_bst.jpg)
 
-**Binary-search-tree property**: Let x be a node in a binary search tree. 
-
-If y is a node in the left subtree of x, then y.key <= x.key. 
-
-If y is a node in the right subtree of x, then y.key >= x.key.
+### Property
+Let x be a node in a binary search tree:
+- If y is a node in the left subtree of x, then y.key <= x.key. 
+- If y is a node in the right subtree of x, then y.key >= x.key.
 
 ### Inorder tree walk
 The binary-search-tree property allows us to print out all the keys in sorted order.
-(Similarly, a **preorder tree walk** prints the root before the values in either subtree, and **a postorder tree walk** prints the root after the values in its subtrees.)
+ - **preorder tree walk** prints the root before the values in either subtree as shown {numref}`inorder`
+ - **a postorder tree walk** prints the root after the values in its subtrees.)
 
-<p align="center">
-  <img src=../../../images/data-structure/example_bst.jpg alt="runway">
+```{figure} ../../../images/data-structure/pseudo_inorder-tree-walk.png
+---
+scale: 100%
+name: inorder
+---
+Pseudocode inorder tree walk
+```
+
+<!-- <p align="center">
+  <img src="../../../images/data-structure/pseudo_inorder-tree-walk.png" alt="runway">
   <br>
   <em> INORDER-TREE-WALK(T.root) </em> 
-</p>
+</p> -->
 
 ### Operations
 *find(k)*, *find min()*, *insert(x)*, *next_larger(x)*(*successor*) and *delete()*.
 
-- *find(k)*: Follow left and right pointers(binary search) until you find it or hit NIL.
+```
+- find(k): Follow left and right pointers(binary search) until you find it or hit NIL.
 - *find min( )*: keep going left until hit NIL
 - *insert(x)*: two pointers - prev and current, follow left and right until current hit NIL
 - *next_larger(x)*: find_min() if node x has a right subtree, or traverse up-left until reach a node y that is a left child, return y's parent.
@@ -54,6 +64,8 @@ Case 1 and Case 2 can be combined.
   3. delete self.root
   4. reassign sentinel.left to self.root 
   5. unlink the sentinel node   
+```
+
 
   [Code](https://github.com/EeToSe/Algorithms/blob/main/src/data-structures/bst.py) and details [Binary Search Tree](BST.md)
 

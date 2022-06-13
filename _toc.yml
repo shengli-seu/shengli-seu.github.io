@@ -12,16 +12,16 @@ parts:
       title: Essence
 
 - caption: Coding
-  chapters:
-  # data structure
-  - file: chapters/2-Coding/1-datastructure/datastruct
-    sections:
-    - file: chapters/2-Coding/1-datastructure/heap
-    - file: chapters/2-Coding/1-datastructure/BST
-    - file: chapters/2-Coding/1-datastructure/graph
-  
+  chapters:  
   # algorithms   
   - file: chapters/2-Coding/2-algorithms/algorithms
+    sections:
+    # data structure
+    - file: chapters/2-Coding/1-datastructure/datastruct
+      sections:
+      - file: chapters/2-Coding/1-datastructure/heap
+      - file: chapters/2-Coding/1-datastructure/BST
+      - file: chapters/2-Coding/1-datastructure/graph
 
   # Python
   - file: chapters/2-Coding/3-python/python
@@ -31,3 +31,12 @@ parts:
 
   # C/C++
   - file: chapters/2-Coding/3-python/c 
+
+- caption: AI
+  chapters:
+  - file: chapters/AI/1-ml/ml
+  - file: chapters/AI/2-dl/dl
+
+- caption: Research
+  chapters:
+  - file: chapters/research/projects/smartcampus.md

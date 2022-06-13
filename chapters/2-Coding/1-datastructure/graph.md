@@ -6,7 +6,12 @@ Graph $G = (V, E)$
 ## Graph Representations
 ### Adjacency lists
 
-<img src=../ width = 700/>
+```{figure} ../../../images/data-structure/adjacencyList.png
+---
+scale: 80%
+name: adjacency-lists
+---
+```
 
 ### Object-oriented Variations
 - object for each vertex $u$
