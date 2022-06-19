@@ -31,3 +31,6 @@ For GitHub and GitLab deployment specifically, the [cookiecutter-jupyter-book](h
 ## Credits
 
 This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
+
+## Get up with Jupyter   
+[UBC JupyterDays](https://ubc-dsci.github.io/jupyterdays/index.html)

@@ -3,41 +3,57 @@
 
 format: jb-book
 root: chapters/intro
+title: About me
+
+# sections:
+# - file: chapters/research/notebooks
 parts:
 - caption: Mathematics
+  numbered: True
   chapters:
-  - file: chapters/1-Math/1-LinAlg/linear algebra
+  - file: chapters/1/linear algebra
     sections:
     - url: https://eetose.github.io/docs/math/linear%20algebra/essence/
       title: Essence
+  - file: chapters/2/statistics
 
 - caption: Coding
-  # numbered: true                      # Only the Coding part is numbered
-  chapters:  
+  numbered: 3                     # Only the Coding part is numbered
+  chapters:
+  # data structure
+  - file: chapters/3/datastruct
+    sections:
+    - file: chapters/3/1/heap
+    - file: chapters/3/2/BST
+    - file: chapters/3/3/graph 
+
   # algorithms   
-  - file: chapters/2-Coding/2-algorithms/algorithms
+  - file: chapters/4/algorithms
+
+  - file: chapters/5/language
     sections:
-    # data structure
-    - file: chapters/2-Coding/1-datastructure/datastruct
+    # Python
+    - file: chapters/5/1/python
       sections:
-      - file: chapters/2-Coding/1-datastructure/heap
-      - file: chapters/2-Coding/1-datastructure/BST
-      - file: chapters/2-Coding/1-datastructure/graph
-
-  # Python
-  - file: chapters/2-Coding/3-python/python
-    sections:
-    - file: chapters/2-Coding/3-python/env
-    - file: chapters/2-Coding/3-python/modules
-
-  # C/C++
-  - file: chapters/2-Coding/3-python/c 
+      - file: chapters/5/1/env
+      - file: chapters/5/1/modules
+    # C/C++
+    - file: chapters/5/2/c 
 
 - caption: AI
+  numbered: 3
   chapters:
-  - file: chapters/AI/1-ml/ml
-  - file: chapters/AI/2-dl/dl
+  - file: chapters/6/ml
+  - file: chapters/7/dl
 
+# Research
 - caption: Research
   chapters:
-  - file: chapters/research/projects/smartcampus.md
+  - file: chapters/8/1/project
+    sections:   
+    - file: chapters/8/1/1/smartcampus
+    - file: chapters/8/1/1/smart
+    - file: chapters/8/1/2/Zeiss 
+      sections:
+      - file: chapters/8/1/2/image_formation
+
