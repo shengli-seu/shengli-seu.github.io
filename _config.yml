@@ -50,7 +50,6 @@ html:
   navbar_number_sections    : false  # Add a number to each section in your left navbar
   # google_analytics_id     : "G-JNKE33XNJQ" # A GA id that can be used to track book views.
   home_page_in_navbar       : false  # Whether to include your home page in the left Navigation Bar
-  baseurl                   : "https://inferentialthinking.org"  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   use_repository_button     : true
   use_edit_page_button      : true
   use_issues_button         : false

@@ -25,7 +25,7 @@ name: Beam counter and Human counting camera
 Beam counter and Human counting camera
 ```
 
-```{figure} ../../../../images/smartcampus/device_statistics.PNG
+```{figure} ../../../../images/smartcampus/device_statistics.png
 ---
 scale: 100%
 name: Device installation info
@@ -63,7 +63,5 @@ Vpn table
 
 
 ##  Data Visualization  
-{download}`Thesis report <./Thesis_Report.pdf>` and {download}`Seminar presentation <./Seminar.pdf>` could be found here if if interested.
-<iframe width="100%" height="700" src="./poster.pdf">If you are seeing this text, the preview of the CV failed. Most likely this happened because your browser does not support this technical feature. In this case, please download the CV using the link above.</iframe>
-
+{download}`Poster <./poster.pdf>`, {download}`Thesis report <./Thesis_Report.pdf>` and {download}`Seminar presentation <./Seminar.pdf>` could be found here if if interested.
 
