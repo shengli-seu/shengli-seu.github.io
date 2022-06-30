@@ -41,6 +41,7 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -109,9 +110,14 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/Convexity.html">
+   1. Convexity
+  </a>
+ </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="chapters/1/linear%20algebra.html">
-   1. Linear Algebra
+   2. Linear Algebra
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -126,10 +132,27 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="chapters/2/statistics.html">
-   2. Probability-Statistics
+   3. Probability-Statistics
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="chapters/2/1/measure.html">
+     3.1. Measure Theory
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="chapters/2/1/normal_distribution.html">
+     3.2. Normal distribution
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -140,39 +163,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="chapters/3/datastruct.html">
-   3. Data Structure
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="chapters/3/1/heap.html">
-     3.1. Heap
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="chapters/3/2/BST.html">
-     3.2. Binary Search Tree
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="chapters/3/3/graph.html">
-     3.3. Graphs
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="chapters/4/algorithms.html">
-   4. Algorithms
-  </a>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="chapters/5/language.html">
-   5. Programming language
+   1. Data Structure
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
   <label for="toctree-checkbox-3">
@@ -180,31 +171,63 @@ const thebe_selector_output = ".output, .cell_output"
    </i>
   </label>
   <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="chapters/3/1/heap.html">
+     1.1. Heap
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="chapters/3/2/BST.html">
+     1.2. Binary Search Tree
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="chapters/3/3/graph.html">
+     1.3. Graphs
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/4/algorithms.html">
+   2. Algorithms
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="chapters/5/language.html">
+   3. Programming language
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="chapters/5/1/python.html">
-     5.1. Python
+     3.1. Python
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-    <label for="toctree-checkbox-4">
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
      <i class="fas fa-chevron-down">
      </i>
     </label>
     <ul>
      <li class="toctree-l3">
       <a class="reference internal" href="chapters/5/1/env.html">
-       5.1.1. Virtual environments
+       3.1.1. Virtual environments
       </a>
      </li>
      <li class="toctree-l3">
       <a class="reference internal" href="chapters/5/1/modules.html">
-       5.1.2. Modules
+       3.1.2. Modules
       </a>
      </li>
     </ul>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="chapters/5/2/c.html">
-     5.2. C/C++
+     3.2. C/C++
     </a>
    </li>
   </ul>
@@ -218,12 +241,12 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="chapters/6/ml.html">
-   6. Machine Learning
+   1. Machine Learning
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="chapters/7/dl.html">
-   7. Deep Learning
+   2. Deep Learning
   </a>
  </li>
 </ul>
@@ -235,24 +258,24 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="chapters/8/1/image.html">
-   8. Image processing
+   1. Image processing
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="chapters/8/1/1/filtering.html">
-     8.1. Image Filtering
+     1.1. Image Filtering
     </a>
    </li>
   </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="chapters/8/2/cv.html">
-   9. Computer Vision
+   2. Computer Vision
   </a>
  </li>
 </ul>
@@ -262,12 +285,17 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="chapters/10/task.html">
+   Daily tasks
+  </a>
+ </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="chapters/10/1/fields.html">
    Research fields
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -293,8 +321,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="chapters/10/2/project.html">
    Projects
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
-  <label for="toctree-checkbox-7">
+  <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -308,8 +336,8 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal" href="chapters/10/2/2/Zeiss.html">
      Zeiss algorithm develop
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
-    <label for="toctree-checkbox-8">
+    <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+    <label for="toctree-checkbox-9">
      <i class="fas fa-chevron-down">
      </i>
     </label>
@@ -433,8 +461,26 @@ title="Source repository"
 <h1 id="index">Index</h1>
 
 <div class="genindex-jumpbox">
+ <a href="#A"><strong>A</strong></a>
+ | <a href="#C"><strong>C</strong></a>
  
 </div>
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="chapters/Convexity.html#term-A-second-term"><strong>A second term</strong></a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="C">C</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="chapters/Convexity.html#term-convex"><strong>convex</strong></a>
+</li>
+  </ul></td>
+</tr></table>
+
 
 
               </div>
