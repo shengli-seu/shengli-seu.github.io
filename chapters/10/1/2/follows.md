@@ -18,10 +18,16 @@
 - Grigori Yakovlevich Perelman
   - [Wiki](https://zh.m.wikipedia.org/zh/%E6%A0%BC%E9%87%8C%E6%88%88%E9%87%8C%C2%B7%E4%BD%A9%E9%9B%B7%E5%B0%94%E6%9B%BC) focus on only the important questions
 
+- 余金权
+  - 凡是尽最大努力，做好眼下活
+
+
+
 ## Research
 ### Academic 
 - [陈丹琦](https://www.cs.princeton.edu/~danqic/) Princeton AP
 - [马腾宇](https://ai.stanford.edu/~tengyuma/) Stanford AP <u>long term effect</u> 切忌急功近利
+- [付杰](https://mp.weixin.qq.com/s/YPuDwH7f_diKpFLOrGrgQw) 从二本生到 ICLR 杰出论文奖
 
 ### Industry
 - [Kaiming He](http://kaiminghe.com/) ResNets 

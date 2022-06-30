@@ -23,3 +23,4 @@ Reference:
 ## Application courses
 - [Applied Machine Learning](https://www.cs.columbia.edu/~amueller/comsw4995s20/schedule/) 配合CS229
 - [CompSciProgram](https://compphysics.github.io/CompSciProgram/)
+- [Machine Learning with PyTorch and Scikit-Learn](https://sebastianraschka.com/books/)
