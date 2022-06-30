@@ -9,13 +9,17 @@ title: About me
 # - file: chapters/research/notebooks
 parts:
 - caption: Mathematics
-  numbered: True
+  numbered: 3
   chapters:
+  - file: chapters/Convexity
   - file: chapters/1/linear algebra
     sections:
     - url: https://eetose.github.io/docs/math/linear%20algebra/essence/
       title: Essence
   - file: chapters/2/statistics
+    sections: 
+    - file: chapters/2/1/measure
+    - file: chapters/2/1/normal_distribution
 
 - caption: Coding
   numbered: 3                     # Only the Coding part is numbered
@@ -58,7 +62,7 @@ parts:
 # Research
 - caption: Research
   chapters:
-  - file: chapters/10/daily
+  - file: chapters/10/task
   # research fields
   - file: chapters/10/1/fields
     sections:

@@ -53,7 +53,9 @@ html:
   use_repository_button     : true
   use_edit_page_button      : true
   use_issues_button         : false
-
+  use_multitoc_numbering    : true
+  comments:
+    hypothesis: true
 #######################################################################################
 repository:
   url                       : https://github.com/shengli-seu/shengli-seu.github.io  # The URL to your book's repository
