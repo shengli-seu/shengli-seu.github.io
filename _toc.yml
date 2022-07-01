@@ -34,6 +34,7 @@ parts:
   # algorithms   
   - file: chapters/4/algorithms
 
+  # language 
   - file: chapters/5/language
     sections:
     # Python
@@ -56,7 +57,7 @@ parts:
   - file: chapters/8/1/image
     sections:
     - file: chapters/8/1/1/filtering
-  
+    - file: chapters/8/1/2/fuzzy  
   - file: chapters/8/2/cv
 
 # Research
