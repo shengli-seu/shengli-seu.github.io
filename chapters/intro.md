@@ -10,5 +10,11 @@ Previously I studied Electrical Engineering at UNSW, where I was part of UNSW Sm
 
 You can reach me at sheng-li@seu.edu.cn.
 
+## Taking notes on ...
+* Reflection on Math & EECS
+* Recurrence of research projects
+* Implementation of algorithms
+* Document technical skills
+
 
 
