@@ -9,9 +9,9 @@ title: About me
 # - file: chapters/research/notebooks
 parts:
 - caption: Mathematics
-  numbered: 3
+  numbered: 2
   chapters:
-  - file: chapters/Convexity
+  # - file: chapters/Convexity
   - file: chapters/1/linear algebra
     sections:
     - url: https://eetose.github.io/docs/math/linear%20algebra/essence/
@@ -22,7 +22,7 @@ parts:
     - file: chapters/2/1/normal_distribution
 
 - caption: Coding
-  numbered: 3                     # Only the Coding part is numbered
+  numbered: 2                     # Only the Coding part is numbered
   chapters:
   # data structure
   - file: chapters/3/datastruct
@@ -46,19 +46,22 @@ parts:
     - file: chapters/5/2/c 
 
 - caption: AI
-  numbered: 3
+  numbered: 2
   chapters:
   - file: chapters/6/ml
   - file: chapters/7/dl
 
 - caption: Computer Vision
-  numbered: 3
+  numbered: 2
   chapters:
-  - file: chapters/8/1/image
+  # image processing
+  - file: chapters/8/image
     sections:
-    - file: chapters/8/1/1/filtering
-    - file: chapters/8/1/2/fuzzy  
-  - file: chapters/8/2/cv
+    - file: chapters/8/1/filtering
+    - file: chapters/8/2/fuzzy 
+    - file: chapters/8/3/edge
+  # computer vision
+  - file: chapters/9/cv
 
 # Research
 - caption: Research
